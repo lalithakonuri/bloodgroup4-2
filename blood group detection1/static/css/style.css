@@ -1,0 +1,130 @@
+body {
+    background-image: url('../images/finger print.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.index-div {
+    background: #080808;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: #14c0d6;
+    color: #130f0f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+}
+a:hover {
+    background: #21dd1a;
+}
+.login-div {
+    background: #0e0d0d;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+.register-div {
+    background: #070707;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+i {
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: #bdb6b6;
+    font-size: 14px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #2705bd;
+    color: rgb(12, 12, 14);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+input[type="submit"]:hover {
+    background: #3ddd2e;
+}
+.links {
+    margin-top: 15px;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.home-div{
+    display: flex;
+    flex-direction: column;
+}
+.home-div {
+    background: rgb(233, 232, 228);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+h1 {
+    color: #271bd1;
+    margin-top: 10%;
+}
+h2, h3, h4 {
+    color: #3cdf1b;
+}
+form {
+    margin-top: 15px;
+}
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #1d1ada;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4ce70f;
+}
+p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #0c0b0b;
+}

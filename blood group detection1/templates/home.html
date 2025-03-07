@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Blood Group</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <div class="home-div">
+            <h1>Blood group detection using fingerprint images</h1>           
+            <h2>Model Prediction</h2>
+            <h4>Predicted Image is: <strong> {{predicted_label}} </strong></h4>
+            <form action="../templates/Home.html" method="post">
+                <input type="file" name="image" accept="image/*" required>
+                <button type="submit">Submit</button>
+            </form>     
+            <h3>Innovating Blood Group ID through Fingerprint Technology</h3>
+            <p>In our project, we focus on classifying blood groups using advanced fingerprint recognition technology. Blood groups play a crucial role in medical emergencies, organ donations, and blood transfusions, making accurate identification essential. Our dataset includes the eight main blood types: A+, A-, AB+, AB-, B+, B-, O+, and O-. To achieve precise classification, we employ state-of-the-art machine learning algorithms, including Convolutional Neural Networks (CNNs), MobileNet, and a hybrid model combining ResNet with Recurrent Neural Networks (RNNs). CNNs are particularly effective for image recognition tasks, allowing us to analyze fingerprint patterns with high accuracy. MobileNet offers a lightweight solution for efficient processing, ideal for real-time applications. The hybrid ResNet-RNN model enhances our classification capabilities by combining the strengths of both architectures, making it suitable for complex pattern recognition.Our innovative approach aims to streamline blood group identification, improving response times in critical situations. By integrating fingerprint technology with advanced algorithms, we are paving the way for a reliable and user-friendly solution that ensures safe and accurate blood group identification.</p>
+        </div>
+    </body>
+</html>
