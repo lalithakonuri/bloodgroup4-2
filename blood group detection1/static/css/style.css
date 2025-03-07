@@ -62,20 +62,6 @@ i {
     color: #bdb6b6;
     font-size: 14px;
 }
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background: #2705bd;
-    color: rgb(12, 12, 14);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-}
-input[type="submit"]:hover {
-    background: #3ddd2e;
-}
 .links {
     margin-top: 15px;
 }
